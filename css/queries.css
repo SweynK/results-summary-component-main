@@ -1,0 +1,55 @@
+/*below 768px*/
+@media (max-width: 48rem) {
+  main {
+    height: auto;
+  }
+  .container {
+    flex-direction: column;
+    border-radius: none;
+  }
+  .result-box {
+    border-radius: 0rem 0rem 3.2rem 3.2rem;
+    height: 35.6rem;
+  }
+  .headline {
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+  }
+  .circle {
+    width: 14rem;
+    height: 14rem;
+  }
+  .main-num {
+    font-size: 5.6rem;
+    line-height: 7.2rem;
+  }
+  .secondary-num {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+  .header-great {
+    font-size: 2.4rem;
+    line-height: 3rem;
+  }
+  .performance-text {
+    font-size: 1.8rem;
+  }
+  .header-summary {
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+  }
+  .row p {
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+  }
+  /*below 400px*/
+  @media (max-width: 25rem) {
+    main {
+      display: block;
+    }
+    .result-box,
+    .summary-box {
+      width: auto;
+    }
+  }
+}

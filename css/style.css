@@ -154,7 +154,8 @@ main {
 span {
   color: #707070;
 }
-.btn {
+.btn,
+.btn:link {
   display: inline-block;
   width: 28.8rem;
   height: 5.6rem;
@@ -164,13 +165,14 @@ span {
   color: #ffffff;
   background-color: #303b59;
   border-radius: 4rem;
-  transition: 5s;
+  transition: all 0.5s;
   /* display: flex;
   align-items: center;
   justify-content: center; */
   display: grid;
   place-items: center;
 }
-.btn:hover {
+.btn:hover,
+.btn:active {
   background-image: linear-gradient(#7755ff, #6943ff, #2f2ce9);
 }
